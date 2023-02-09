@@ -1,0 +1,65 @@
+import { StyleSheet, StatusBar } from 'react-native';
+export const styles = StyleSheet.create({
+  cont: {
+    marginTop: StatusBar.currentHeight,
+    paddingBottom: 100,
+    flex: 1,
+    backgroundColor: '#efeae2',
+  },
+  title: {
+    textAlign: 'center',
+  },
+  inputCont: {
+    position: 'relative',
+    // bottom: 0,
+    // left: 0,
+    width: '90%',
+    display: 'flex',
+    flexDirection: 'row',
+    justifyContent: 'flex-start',
+    alignItems: 'center',
+    borderWidth: 1,
+    borderRadius: 10,
+    borderColor: '#7d7d7d',
+    overflow: 'hidden',
+  },
+  input: {
+    width: '100%',
+    maxHeight: 50,
+    paddingHorizontal: 10,
+    paddingVertical: 12,
+  },
+  sendIcon: {
+    backgroundColor: '#004eff',
+    padding: 12,
+    position: 'absolute',
+    right: 0,
+  },
+
+  messageBox: {
+    // width: '85%',
+    display: 'flex',
+    flexDirection: 'row',
+    alignItems: 'flex-end',
+    alignSelf: 'flex-start',
+    backgroundColor: '#d9fdd3',
+    borderRadius: 8,
+    marginVertical: 5,
+    position: 'relative',
+    paddingVertical: 5,
+    paddingHorizontal: 10,
+    flexWrap: 'wrap',
+  },
+  message: {
+    color: 'black',
+    fontSize: 20,
+    textAlign: 'left',
+  },
+  date: {
+    marginLeft: 8,
+    fontSize: 12,
+    fontWeight: '400',
+    color: '#667781',
+    justifySelf: 'flex-end',
+  },
+});

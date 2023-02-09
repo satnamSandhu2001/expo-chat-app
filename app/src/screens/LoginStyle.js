@@ -1,0 +1,90 @@
+const { StyleSheet, StatusBar } = require('react-native');
+
+export const styles = StyleSheet.create({
+  cont: {
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'flex-start',
+    marginTop: StatusBar.currentHeight,
+  },
+  logo: {
+    height: 175,
+    marginTop: 30,
+    marginBottom: 10,
+    aspectRatio: 1,
+    borderRadius: 10,
+  },
+  title: {
+    color: 'black',
+    fontWeight: '600',
+    letterSpacing: 0.3,
+    fontSize: 30,
+    marginBottom: 10,
+    marginTop: 80,
+  },
+  desc: {
+    color: '#7d7d7d',
+    fontWeight: '600',
+    letterSpacing: 0.3,
+    fontSize: 15,
+    marginBottom: 40,
+  },
+  inputCont: {
+    width: '80%',
+    marginBottom: 10,
+    display: 'flex',
+    flexDirection: 'row',
+    justifyContent: 'flex-start',
+    alignItems: 'center',
+    borderWidth: 1,
+    borderRadius: 7,
+    borderColor: '#7d7d7d',
+  },
+
+  labelIcon: {
+    height: 24,
+    borderRadius: 5,
+  },
+  input: {
+    width: '100%',
+    paddingHorizontal: 10,
+    paddingVertical: 12,
+  },
+  inputPassword: {
+    flex: 1,
+    paddingHorizontal: 10,
+    paddingVertical: 12,
+  },
+  errorText: {
+    width: '80%',
+    marginBottom: 20,
+    textAlign: 'left',
+    color: 'red',
+    fontWeight: '600',
+  },
+  loginBtn: {
+    marginTop: 20,
+    width: '80%',
+    backgroundColor: 'black',
+    borderRadius: 10,
+    shadowColor: 'black',
+    shadowOffset: { height: 2, width: 0 },
+    elevation: 5,
+    shadowRadius: 5,
+  },
+  loginText: {
+    color: 'white',
+    padding: 15,
+    textAlign: 'center',
+    fontSize: 17,
+  },
+  createAccText: {
+    marginTop: 10,
+    color: '#7d7d7d',
+    padding: 15,
+    textAlign: 'center',
+    fontSize: 17,
+    fontWeight: '600',
+    textDecorationLine: 'underline',
+  },
+});
